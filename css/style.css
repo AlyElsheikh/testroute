@@ -618,6 +618,9 @@ footer h6{
     .blog .item:last-child{
       display: none;
     }
+    .navbar-nav .nav-link.active::after{
+      display: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
