@@ -256,7 +256,6 @@ header{
   margin-bottom: 20px;
 }
 
-
 .portfolio .item .overlay{
   position: absolute;
   top: 15px;
@@ -310,7 +309,6 @@ header{
   top: 5px;
   bottom: 5px;
 }
-
 
 /* ############################# Testimonials ################################ */
 
@@ -457,13 +455,6 @@ footer h6{
   font-size: 13px;
   color: #748182;
 }
-
-
-
-
-
-
-
 
 
 /* ############################# Animation ################################ */
@@ -621,9 +612,16 @@ footer h6{
 }
 
 
+/* ############################# Media screen ################################ */
 
 @media screen and (max-width: 991px) {
     .blog .item:last-child{
       display: none;
     }
+}
+
+@media screen and (max-width: 540px) {
+  .caption h1 {
+    font-size: 30px;
+  }
 }
