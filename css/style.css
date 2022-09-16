@@ -220,11 +220,11 @@ header{
   transition: all .4s;
 }
 
-.services .icon:hover{
+.services .item:hover .icon{
   background-color: #343434;
 }
 
-.services .icon:hover i{
+.services .item:hover i{
   color: #f4f4f4;
 }
 
