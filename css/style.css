@@ -128,7 +128,7 @@ header{
   overflow: auto;
 }
 .about .img-container img{
-  width: 97%;
+  width: 94%;
   height: 94%;
 }
 .about .img-container::before{
